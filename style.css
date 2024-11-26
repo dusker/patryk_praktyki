@@ -12,11 +12,16 @@ main{
     height: 50vh;
     border-radius: 30px;
     box-shadow: 10px 2px 10px 0 #322214;
+    transition: all 0.5s ease;
    
 
 }
 
-
+main:hover{
+    width: 53vh;
+    height: 53vh;
+    
+}
 
 #main{
     display: flex;
